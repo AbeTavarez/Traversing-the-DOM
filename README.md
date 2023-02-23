@@ -58,13 +58,16 @@ and:
 You can use the following node properties to navigate between nodes with JavaScript:
 
     - parentNode
-    - childNodes[nodenumber]
-    - firstChild
-    - lastChild
-    - nextSibling
-    - previousSibling
+    - children[index] / childNodes[index]
+    - firstChild / firstElementChild
+    - lastChild / lastElementChild
+    - nextSibling / nextElementSibling
+    - previousSibling /previousElementSibling
 
 ## Time to practice 
 
-    1. Get familiar with the code in the HTML file
+    1. Get familiar with the code in the HTML file.
     2. Then go to the JavaScript file to complete the exercise.
+
+#### Source
+    - www.w3schools.com and me ```<div>&#128640;</div>```

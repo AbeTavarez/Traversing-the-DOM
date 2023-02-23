@@ -70,4 +70,5 @@ You can use the following node properties to navigate between nodes with JavaScr
     2. Then go to the JavaScript file to complete the exercise.
 
 #### Source
-    - www.w3schools.com and me ```<div>&#128640;</div>```
+    - www.w3schools.com 
+    - AbeTavarez

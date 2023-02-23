@@ -20,7 +20,7 @@ The terms parent, child, and sibling are used to describe the relationships.
     - A node can have a number of children
     - Siblings (brothers or sisters) are nodes with the same parent
 
-<html>
+`<html>
 
   <head>
     <title>DOM Tutorial</title>
@@ -31,6 +31,23 @@ The terms parent, child, and sibling are used to describe the relationships.
     <p>Hello world!</p>
   </body>
 
-</html>
+</html>`
 
 ![alt text](./assets/pic_navigate.gif "HTML Tree")
+
+From the HTML above you can read:
+
+    - `<html>` is the root node
+    - `<html>` has no parents
+    - `<html>` is the parent of `<head>` and <body>
+    - `<head>` is the first child of `<html>`
+    - <body> is the last child of `<html>`
+
+and:
+
+    - `<head>` has one child: `<title>`
+    - `<title>` has one child (a text node): "DOM Tutorial"
+    - `<body>` has two children: `<h1>` and `<p>`
+    - `<h1>` has one child: "DOM Lesson one"
+    - `<p>` has one child: "Hello world!"
+    - `<h1>` and `<p>` are siblings

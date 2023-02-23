@@ -52,3 +52,19 @@ and:
     - <h1> has one child: "DOM Lesson one"
     - <p> has one child: "Hello world!"
     - <h1> and <p> are siblings
+
+## Navigating Between Nodes
+
+You can use the following node properties to navigate between nodes with JavaScript:
+
+    - parentNode
+    - childNodes[nodenumber]
+    - firstChild
+    - lastChild
+    - nextSibling
+    - previousSibling
+
+## Time to practice 
+
+    1. Get familiar with the code in the HTML file
+    2. Then go to the JavaScript file to complete the exercise.
